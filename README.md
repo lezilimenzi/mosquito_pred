@@ -47,7 +47,7 @@ LB를 갱신한 핵심 노트북 10개만 보존 (`01`~`10`).
 | `07_soft_sweep.ipynb` | soft sweep | 0.6914 |
 | `08_t_grid.ipynb` | t-grid | 0.6916 |
 | `09_rnn_aug.ipynb` | RNN augmentation | 0.6920 |
-| `10_rotgate.ipynb` ⭐ | **Rotation-gated decoder** | 0.6996 |
+| `10_rotgate.ipynb` ⭐ | **Rotation-gated decoder** | 0.7002 |
 
 상세 설계는 [`RESEARCH.md`](RESEARCH.md), 전체 실험 로그는 [`EXPERIMENTS.md`](EXPERIMENTS.md) 참조.
 
