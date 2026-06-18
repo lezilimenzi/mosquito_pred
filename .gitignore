@@ -1,0 +1,13 @@
+# 대회 데이터 (재배포 금지 + 용량)
+open/
+
+# 외부 공유 참고 코드
+references/
+
+# 파생 데이터 / 캐시
+results/
+*.npy
+
+# 노트북 / 파이썬 캐시
+.ipynb_checkpoints/
+__pycache__/
