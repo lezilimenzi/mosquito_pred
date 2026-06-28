@@ -2,7 +2,7 @@
 
 > 🏁 **대회 종료 (2026-06-12): 최종 LB 0.7002 · 최종 순위 12등.**
 
-> **현 채택: Rotation-gated 물리 decoder (LB 0.6996)** — 단일 MLP physics-structured decoder.
+> **현 채택: Rotation-gated 물리 decoder (LB 0.7002)** — 단일 MLP physics-structured decoder.
 > `pred = p_last + R·[w_v·e^(−exp_v)·rodrigues(v_EMA, ω) + w_a·e^(−exp_a)·a_EMA]`, ω=(ω_hist 해석적 + ω_delta 학습)·gate.
 > 핵심 새 물리 = **rotation gate**(CV 직선 base가 못 휘는 곡선 외삽). 노트북 `10_rotgate.ipynb`(구 `hr_aware_rotgate_e38.ipynb`), 제출 `submission_rotgate_e38.csv`, 캐시 `results/rotgate_e38_{oof,test}_seed{42,7,123}.npy`(둘 다 Colab/Drive 측).
 > 실험 결과 전체 = EXPERIMENTS.md.
